@@ -12863,6 +12863,7 @@ aside .sp-sidebar-banner span {
 .header .inner-wrap {
   width: 100%;
 }
+
 .header a:not(.btn) {
   color: inherit;
 }
@@ -12892,6 +12893,12 @@ aside .sp-sidebar-banner span {
 .header-right {
   margin-left: auto;
 }
+
+/* .header-left{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+} */
 
 .has-center .header-right {
   -webkit-box-flex: 1;
@@ -12955,8 +12962,8 @@ aside .sp-sidebar-banner span {
           transition: all linear .2s;
 }
 
-.header-right .sign-in:hover,
-.header-right .register:hover {
+.sign-in:hover,
+.register:hover {
   background: #336696 !important;
   color: #fff !important;
 }
